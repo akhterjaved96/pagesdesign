@@ -1,11 +1,167 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
+.upperhead{
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  display: inline-block;
+  color: white;
+  align-items: center;
+}
+.upperhead .icon{
+  float: right;
+  margin-right: 30px;
+}
+.container{
+  width: 100%;
+  height: 20px;
+  background:#f0f3f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* position: fixed; */
+  top: 0; left: 0;
+  z-index: 1000;
+  padding: 2.5rem 7%;
+}
+.container .logo{
+  font-size: 2rem;
+}
+
+.container .navbar ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.container .navbar ul li{
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.container .navbar ul .contact{
+  background-color: blue;
+  border-radius: 20px;
+  font: 1rem;
+  color: white;
+}
+
+.header{
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+  background-color: #979899;
+}
+.para{
+  text-align: center;
+  margin-top: 10px;
+}
+ h1{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main .col{
+  width: 350px;
+  height:300px;
+  background-color: #979899;
+  float: left;
+  border-radius: 5px;
+  margin: 30px;
+  margin-left: 60px;
+  padding: 10px;
+}
+.service{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service .col1{
+  width: 300px;
+  height:250px;
+  background-color: #979899;
+  margin: 30px;
+  margin-left: 60px;
+  padding: 10px;
+  
+}
+
+.service h2,p{
+  text-align: center;
+  margin-left: 30px;
+}
+.service button{
+  width: 80%;
+  height: 50px;
+  background-color: #dfe3e8;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.footer{
+  width: 100%;
+  height: 200px;
+  background-color: #e4e8ed;
+}
+ul{
+  list-style: none;
+}
+.footer .box-container{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.footer .box-container ul{
+  padding: 10px;
+}
+
+.footer .box-container ul li{
+  padding: 10px;
+}
+.footer .para2{
+  padding-bottom: 20px;
+}
+.signup{
+  width: 100%;
+  height: 150px;
+  background-color: #1df2bd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.signup .sbox1{
+  padding: 30px;
+  margin: 10px;
+}
+.signup input{
+  width: 500px;
+  border: none;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.signup button{
+  border: none;
+  padding: 15px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
